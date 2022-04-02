@@ -7,8 +7,10 @@ authors = ["rinoguchi <inogu1979@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.0.3"
+mysqlclient = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
+black = "^22.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
